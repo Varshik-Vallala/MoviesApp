@@ -1,0 +1,138 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 90px;
+  width: 300px;
+  color: #fff;
+  margin-top: -20px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .details {
+    margin: 1px 0;
+    padding: 0 15px;
+    width: 40%;
+  }
+}
+.certification {
+  border: 1px solid #fff;
+  width: 45px;
+  text-align: center;
+  background: #31313190;
+  padding: 1px;
+}
+@media (max-width: 768px) {
+  .mobile-margin {
+    margin: 3px 0;
+    font-size: 12px;
+  }
+  .certification {
+    width: 35px;
+  }
+}
+.complete-movie-details {
+  background: #111;
+  color: #fff;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .complete-movie-details {
+    padding: 1px 2px;
+  }
+}
+.movie-details-container {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .movie-details-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.sub-containers {
+  margin-right: 180px;
+}
+.details-heading {
+  color: #64748b;
+  font-weight: 600;
+  font-size: 17px;
+}
+.sub-details-container {
+  list-style-type: none;
+  padding: 0;
+}
+.list-item {
+  margin-bottom: 8px;
+}
+.details-play {
+  /* text-decoration: underline; */
+  color: #000;
+}
+.movies-list-loader {
+  background: #000;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.movies-list-play-btn {
+  text-decoration: none;
+  color: #000;
+}
+.movies-list-container {
+  position: absolute;
+  background: #fff;
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+.movies-list-container:hover {
+  background: #f5f5f590;
+}
+@media (max-width: 768px) {
+  .movies-list-container {
+    height: 25px;
+    padding: 4px;
+    margin: 4px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .details-heading {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+  }
+  .sub-containers {
+    margin: 10px 13px;
+  }
+  .list-item {
+    font-size: 12px;
+  }
+  .sub-item {
+    font-size: 12px;
+    margin: 8px 0;
+  }
+  .sub-details-container {
+    margin: 8px 0;
+  }
+}
+.mobile-view-description {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mobile-view-description {
+    display: block;
+    padding: 0 13px;
+    text-align: justify;
+  }
+}

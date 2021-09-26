@@ -1,0 +1,80 @@
+/* .original-image {
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+}
+.movie-name {
+  color: #fff;
+  font-size: 50px;
+  line-height: 42px;
+  font: 'HK Grotesk';
+  width: 500px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.overview-text {
+  padding-left: 90px;
+  padding-right: 90px;
+  font: 'HK Grotesk';
+  color: #fff;
+  font-size: 16px;
+  width: 650px;
+  text-align: justify;
+}
+.play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+  padding-right: 90px;
+  width: 90px;
+  padding: 12px;
+  cursor: pointer;
+  background: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  align-self: flex-end;
+}
+.play-btn:hover {
+  background: #888;
+}
+.play {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.empty-container {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.546875) 38.26%,
+    #181818 92.82%,
+    #181818 98.68%,
+    #181818 108.61%
+  );
+  height: 300px;
+} */
+.all-category-movies {
+  background: #000000;
+  color: #fff;
+  font: 'HK Grotesk';
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 1px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .all-category-movies {
+    padding: 1px 0 20px 0;
+  }
+}

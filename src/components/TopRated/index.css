@@ -1,0 +1,10 @@
+.slider-container {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .slider-container {
+    width: 90%;
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,115 @@
+.movies-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.sides-navbar {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  color: #fff;
+}
+.header-movies-logo {
+  width: 120px;
+}
+.left-side {
+  width: 400px;
+}
+.right-side {
+  width: auto;
+}
+.search-icon {
+  color: #fff;
+}
+/* .search-icon :hover {
+  display: block;
+} */
+
+.account-logo {
+  width: 30px;
+  margin-left: 35px;
+}
+
+.search-icon {
+  margin-right: ;
+}
+.web-nav {
+  display: block;
+}
+.mobile-nav {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0 18px;
+  display: none;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .mobile-nav {
+    /* display: block; */
+    display: flex;
+  }
+  .web-nav {
+    display: none;
+  }
+}
+.mobile-nav-bar {
+  list-style-type: none;
+  padding: 0;
+  /* padding-left: 8px; */
+}
+.mobile-logo-view {
+  height: 20px;
+  /* width: 100px; */
+}
+.mobile-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-icons-container {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ham-burger-menu {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  width: 80px;
+  text-align: center;
+  display: none;
+  padding: 2px;
+}
+
+/* @media (min-width: 768px) {
+  .ham-burger-menu {
+    display: none;
+  }
+} */
+.ham-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.ham-menu-options {
+  margin: 0;
+  padding: 2px 2px;
+  font-weight: 600;
+}
+.ham-menu-options:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+.popular-page-background {
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.popular-movies-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.each-poster {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.popular-poster {
+  height: 175px;
+  width: 250px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .popular-movies-list {
+    padding: 0 5px;
+  }
+  .popular-poster {
+    height: 100px;
+    width: 100px;
+  }
+  .each-poster {
+    margin-right: 4px;
+    margin-bottom: 3px;
+  }
+}
+.page-number-container {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+  /* align-self: center; */
+}
+.arrows {
+  border: 1px solid #fff;
+  /* font-size: 20px; */
+  padding: 4px;
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+}
+.products-loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

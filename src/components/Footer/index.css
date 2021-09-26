@@ -1,0 +1,35 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    margin-top: 15px;
+  }
+}
+.icons-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  line-height: 8px;
+}
+.icon {
+  font-size: 22px;
+}
+@media (max-width: 768px) {
+  .icon {
+    font-size: 18px;
+  }
+}
+
+.footer-text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 8px;
+}

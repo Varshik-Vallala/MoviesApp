@@ -1,0 +1,11 @@
+.trending-heading {
+  font-size: 22px;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .trending-heading {
+    margin: 6px 0;
+    padding: 0 15px;
+    font-size: 16px;
+  }
+}
